@@ -1,0 +1,9 @@
+name: skript-deploy
+author: MrScopes
+description: Deploy scripts from a repository to your server.
+website: https://github.com/MrScopes/skript-deploy
+version: '${version}'
+
+api-version: 1.21
+main: me.mrscopes.skriptdeploy.SkriptDeploy
+load: POSTWORLD

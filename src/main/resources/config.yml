@@ -1,0 +1,27 @@
+repository:
+  # Location for the staging clone of the repository.
+  local-folder: 'plugins/skript-deploy/repository'
+
+  # URL of the repository.
+  url: 'https://github.com/myuser/myrepo'
+
+  # Remote name.
+  origin: 'origin'
+
+  # Folder inside the repository containing the scripts.
+  # Leave blank if the repository root contains the scripts.
+  scripts-folder: ''
+
+  credentials:
+    # Leave blank for public repositories.
+    username: ''
+    secret: ''
+
+# Final live folder where Skript loads scripts from.
+scripts-folder: 'plugins/Skript/scripts'
+
+# Existing live scripts are copied here before replacement or deletion.
+backups-folder: 'plugins/skript-deploy/backups'
+
+# Permission to execute the /deploy command.
+permission: 'skriptdeploy.deploy'
