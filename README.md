@@ -1,3 +1,5 @@
+[![Build](https://github.com/MrScopes/SkriptDeploy/actions/workflows/build.yml/badge.svg)](https://github.com/MrScopes/SkriptDeploy/actions/workflows/build.yml)
+
 # Alpha
 Plugin in early testing. Make sure to make your own extra backups just in case.
 
